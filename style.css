@@ -25,18 +25,12 @@ header {
     max-width: 1280px;
     margin: 0 auto;
     padding: 1.5rem 2rem;
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 0;
-    background: #ffffff;
-    z-index: 1000;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap; /* Ensure items stay in a single line */
 }
 
 .logo {
@@ -318,13 +312,11 @@ p {
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;
-        justify-content: center;
-        gap: 1.5rem;
+        gap: 5rem;
     }
     .nav-container ul {
         flex-direction: horizontal;
-        justify-content: center;
-        gap: 0.4rem;
+        gap: 0.3rem;
         text-align: center;
     }
     section {
