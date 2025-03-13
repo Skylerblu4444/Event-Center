@@ -318,11 +318,13 @@ p {
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;
+        justify-content: center;
         gap: 1.5rem;
     }
     .nav-container ul {
         flex-direction: horizontal;
-        gap: 1rem;
+        justify-content: center;
+        gap: 0.5rem;
         text-align: center;
     }
     section {
