@@ -3,7 +3,7 @@ Overview
 This project is an HTML and CSS-based webpage designed to showcase an event venue's offerings and provide a seamless user experience.
 
 HTML Code Highlights
-Structure and Layout: Built with a clear HTML5 structure using semantic tags like <header>, <main>, <section>, and <footer> for improved accessibility and logical document flow.
+Structure and Layout: Built with a clear HTML5 structure using semantic tags like header, main, section, and footer for improved accessibility and logical document flow.
 
 Navigation Bar: Features an intuitive navigation bar with anchor links to key sections for easy exploration.
 
