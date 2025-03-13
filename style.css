@@ -25,12 +25,18 @@ header {
     max-width: 1280px;
     margin: 0 auto;
     padding: 1.5rem 2rem;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1000;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap; /* Ensure items stay in a single line */
 }
 
 .logo {
@@ -315,7 +321,7 @@ p {
         gap: 1.5rem;
     }
     .nav-container ul {
-        flex-direction: column;
+        flex-direction: horizontal;
         gap: 1rem;
         text-align: center;
     }
